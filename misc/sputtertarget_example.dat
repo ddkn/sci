@@ -1,0 +1,13 @@
+---
+element		: Ge
+atomic_mass	: 72.630 # g/mol
+density		: 5.323  # g/cm^3
+date		: 2017-Oct-31
+experimenter	: David Kalliecharan
+area (cm^2)	: 1.35
+...
+mass_i (mg), mass_f (mg), power (W), time (min)
+11.534, 12.432, 50, 10
+11.638, 12.589, 40, 20
+11.456, 12.359, 30, 30
+
