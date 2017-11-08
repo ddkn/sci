@@ -74,9 +74,9 @@ table_motion : stationary|rotating
 """
 
 class SputterTarget():
-    def __init__(self, ifile):
+    def __init__(self, ifile, comment='#'):
         skiprows = self.__extract_header(ifile)
-        self.__df = read_csv(ifile, skiprows=skiprows)
+        self.__df = read_csv(ifile, skiprows=skiprows, comment=comment)
 
         # Strip out spaces on begining and end of columns
         self.__df.columns = self.__df.columns.str.strip()
